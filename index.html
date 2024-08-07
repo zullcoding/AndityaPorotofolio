@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- 
+    - meta tag utama
+  -->
+    <title>Anditya Triantara - Pengembang Web & Aplikasi</title>
+    <meta
+      name="title"
+      content="Anditya Triantara - Pengembang Web & Aplikasi"
+    />
+    <meta
+      name="description"
+      content="Ini adalah template portofolio pribadi yang dibuat oleh codewithsadee"
+    />
+
+    <!-- 
+    - favicon
+  -->
+
+    <!-- 
+    - link google font
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- 
+    - link css kustom
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!-- 
+    - preload gambar
+  -->
+    <link rel="preload" as="image" href="./assets/images/hero-banner.jpg" />
+  </head>
+
+  <body>
+    <!-- 
+    - #PRELOADER
+  -->
+
+    <div class="preloader" data-preloader>
+      <div class="circle"></div>
+    </div>
+
+    <!-- 
+    - #HEADER
+  -->
+
+    <header class="header" data-header>
+      <div class="container">
+        <a href="#" class="logo">
+          <h1>Anditya Triantara</h1>
+        </a>
+
+        <button
+          class="nav-toggle-btn"
+          data-nav-toggler
+          data-nav-toggle-btn
+          aria-label="Toggle menu"
+        >
+          <span class="line line-1"></span>
+          <span class="line line-2"></span>
+        </button>
+
+        <nav class="navbar" data-navbar>
+          <ul class="navbar-list">
+            <li>
+              <a href="#" class="navbar-link">Beranda</a>
+            </li>
+
+            <li>
+              <a href="#" class="navbar-link">Resume</a>
+            </li>
+
+            <li>
+              <a href="#" class="navbar-link">Projects</a>
+            </li>
+
+            <li>
+              <a href="#" class="navbar-link">Portofolio</a>
+            </li>
+
+            <li>
+              <a href="#" class="navbar-link">Blog</a>
+            </li>
+
+            <li>
+              <a href="#" class="navbar-link">Kontak</a>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="overlay" data-nav-toggler data-overlay></div>
+      </div>
+    </header>
+
+    <main>
+      <article>
+        <!-- 
+        - #HERO
+      -->
+
+        <section class="section hero" aria-label="beranda">
+          <div class="container">
+            <div class="hero-content">
+              <h1 class="h1 hero-title">Anditya Triantara</h1>
+
+              <p class="hero-subtitle">Pengembang Web & Aplikasi Kreatif</p>
+
+              <div class="hero-banner">
+                <img
+                  src="./assets/images/Triantara.jpeg"
+                  width="800"
+                  height="800"
+                  alt="Anditya Triantara"
+                  class="w-100"
+                />
+              </div>
+
+              <p class="section-text">
+                Hai, saya Anditya Triantara, seorang software engineer yang
+                kreatif. Saya bercita-cita untuk membuat dunia menjadi tempat
+                yang lebih baik dengan menciptakan produk yang memikat dan
+                inovatif.
+              </p>
+
+              <a href="#" class="btn has-before">
+                <span class="span">Unduh CV</span>
+
+                <ion-icon name="download-outline" aria-hidden="true"></ion-icon>
+              </a>
+            </div>
+          </div>
+        </section>
+
+        <section class="projects" aria-labelledby="projects-label">
+          <div class="container">
+            <div class="title-wrapper">
+              <h2 class="h2 section-title" id="projects-label">Projects</h2>
+            </div>
+
+            <div class="slider" data-slider>
+              <ul class="slider-container projects-list" data-slider-container>
+                <li class="slider-item" data-slider-item>
+                  <div class="projects-card">
+                    <div class="card-icon">
+                      <ion-icon name="desktop-outline"></ion-icon>
+                    </div>
+
+                    <h3 class="h3 card-title">Desain Website</h3>
+                    <span class="text-lg card-number">01</span>
+
+                    <a
+                      href="#"
+                      class="layer-link"
+                      aria-label="Lebih lanjut tentang layanan desain website saya"
+                    ></a>
+                  </div>
+                </li>
+
+                <li class="slider-item" data-slider-item>
+                  <div class="projects-card">
+                    <div class="card-icon">
+                      <ion-icon name="podium-outline"></ion-icon>
+                    </div>
+
+                    <h3 class="h3 card-title">Pemasaran SEO</h3>
+                    <span class="text-lg card-number">02</span>
+
+                    <a
+                      href="#"
+                      class="layer-link"
+                      aria-label="Lebih lanjut tentang layanan Pemasaran SEO saya"
+                    ></a>
+                  </div>
+                </li>
+
+                <li class="slider-item" data-slider-item>
+                  <div class="projects-card">
+                    <div class="card-icon">
+                      <ion-icon name="basket-outline"></ion-icon>
+                    </div>
+
+                    <h3 class="h3 card-title">eCommerce</h3>
+                    <span class="text-lg card-number">03</span>
+
+                    <a
+                      href="#"
+                      class="layer-link"
+                      aria-label="Lebih lanjut tentang layanan eCommerce saya"
+                    ></a>
+                  </div>
+                </li>
+
+                <li class="slider-item" data-slider-item>
+                  <div class="projects-card">
+                    <div class="card-icon">
+                      <ion-icon name="color-filter-outline"></ion-icon>
+                    </div>
+
+                    <h3 class="h3 card-title">Desain Grafis</h3>
+                    <span class="text-lg card-number">04</span>
+
+                    <a
+                      href="#"
+                      class="layer-link"
+                      aria-label="Lebih lanjut tentang layanan Desain Grafis saya"
+                    ></a>
+                  </div>
+                </li>
+
+                <li class="slider-item" data-slider-item>
+                  <div class="projects-card">
+                    <div class="card-icon">
+                      <ion-icon name="megaphone-outline"></ion-icon>
+                    </div>
+
+                    <h3 class="h3 card-title">Pemasaran Digital</h3>
+                    <span class="text-lg card-number">05</span>
+
+                    <a
+                      href="#"
+                      class="layer-link"
+                      aria-label="Lebih lanjut tentang layanan Pemasaran Digital saya"
+                    ></a>
+                  </div>
+                </li>
+
+                <li class="slider-item" data-slider-item>
+                  <div class="projects-card">
+                    <div class="card-icon">
+                      <ion-icon name="chatbubbles-outline"></ion-icon>
+                    </div>
+
+                    <h3 class="h3 card-title">Media Sosial</h3>
+
+                    <span class="text-lg card-number">06</span>
+
+                    <a
+                      href="#"
+                      class="layer-link"
+                      aria-label="Lebih lanjut tentang layanan Media Sosial saya"
+                    ></a>
+                  </div>
+                </li>
+              </ul>
+
+              <div class="slider-controls">
+                <button
+                  class="slider-control prev"
+                  data-slider-prev
+                  aria-label="Slide ke item sebelumnya"
+                >
+                  <div class="line"></div>
+                  <div class="arrow"></div>
+                </button>
+
+                <button
+                  class="slider-control next"
+                  data-slider-next
+                  aria-label="Slide ke item berikutnya"
+                >
+                  <div class="line"></div>
+                  <div class="arrow"></div>
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
+      </article>
+    </main>
+
+    <!-- 
+    - #FOOTER
+  -->
+
+    <footer class="footer">
+      <div class="container">
+        <ul class="footer-list">
+          <li>
+            <p class="h4 footer-list-title">Info Kontak</p>
+          </li>
+
+          <li>
+            <a href="mailto:info@kwilliams.com" class="footer-link"
+              >triantara@gmail.com</a
+            >
+          </li>
+        </ul>
+
+        <ul class="footer-list">
+          <li>
+            <p class="h4 footer-list-title">Lokasi</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Yogyakarta</a>
+          </li>
+        </ul>
+
+        <ul class="social-list">
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-dribbble"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-skype"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+    <!-- 
+    - link js kustom
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!-- 
+    - link ionicon
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
